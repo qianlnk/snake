@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Cell">
+      <UniqueIdentifier>{3503f14f-04cb-43c8-9d74-02c0987763dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameArea">
+      <UniqueIdentifier>{aed86db2-b96c-4eab-bbde-7a27a029ad3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Snake">
+      <UniqueIdentifier>{289b4fe7-b80b-4dcc-930e-ef7896f493ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="main">
+      <UniqueIdentifier>{f4c4e6e8-6d16-46a5-b095-763709d8554d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Game">
+      <UniqueIdentifier>{4aef7878-755d-4f13-b88b-4e790c392a6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GameMng">
+      <UniqueIdentifier>{27e06edd-08d1-4b7a-a1d1-0ba02842296d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Msg">
+      <UniqueIdentifier>{0c4b3fbd-00cc-4e53-b644-b3b424b855be}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="cCell.cpp">
+      <Filter>Cell</Filter>
+    </ClCompile>
+    <ClCompile Include="cGameArea.cpp">
+      <Filter>GameArea</Filter>
+    </ClCompile>
+    <ClCompile Include="cSnake.cpp">
+      <Filter>Snake</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>main</Filter>
+    </ClCompile>
+    <ClCompile Include="cGame.cpp">
+      <Filter>Game</Filter>
+    </ClCompile>
+    <ClCompile Include="cMng.cpp">
+      <Filter>GameMng</Filter>
+    </ClCompile>
+    <ClCompile Include="Msg.cpp">
+      <Filter>Msg</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="cCell.h">
+      <Filter>Cell</Filter>
+    </ClInclude>
+    <ClInclude Include="cGameArea.h">
+      <Filter>GameArea</Filter>
+    </ClInclude>
+    <ClInclude Include="cSnake.h">
+      <Filter>Snake</Filter>
+    </ClInclude>
+    <ClInclude Include="cGame.h">
+      <Filter>Game</Filter>
+    </ClInclude>
+    <ClInclude Include="cMng.h">
+      <Filter>GameMng</Filter>
+    </ClInclude>
+    <ClInclude Include="Msg.h">
+      <Filter>Msg</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
